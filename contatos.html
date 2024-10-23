@@ -1,0 +1,53 @@
+<html>
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="contatos.css">
+</head>
+<body class="bg-gradient-to-r from-green-900 to-blue-900 min-h-screen flex items-center justify-center">
+    <div class="bg-transparent p-8 rounded-lg shadow-lg w-full max-w-2xl">
+        <h2 class="text-white text-2xl font-semibold mb-6 text-center">Employee Emergency Contact Form</h2>
+        <form>
+            <div class="mb-4">
+                <label class="block text-red-500 text-sm font-bold mb-2" for="full-name">1. Full name *</label>
+                <div class="flex space-x-4">
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="first-name" type="text" placeholder="First Name">
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="last-name" type="text" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-red-500 text-sm font-bold mb-2" for="department">2. Department *</label>
+                <select class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="department">
+                    <option>Please Select</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label class="block text-red-500 text-sm font-bold mb-2" for="email">3. Email *</label>
+                <div class="flex items-center">
+                    <i class="fas fa-envelope text-gray-500 mr-2"></i>
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="email" type="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-red-500 text-sm font-bold mb-2" for="address">4. Address</label>
+                <div class="flex items-center mb-2">
+                    <i class="fas fa-map-marker-alt text-gray-500 mr-2"></i>
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="address" type="text" placeholder="Address">
+                </div>
+                <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 mb-2" id="address-line-2" type="text" placeholder="Address Line 2">
+                <div class="flex space-x-4">
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="city" type="text" placeholder="City">
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="postal-code" type="text" placeholder="Postal Code">
+                </div>
+            </div>
+            <div class="mb-4">
+                <label class="block text-red-500 text-sm font-bold mb-2" for="phone-number">5. Phone number *</label>
+                <div class="flex items-center">
+                    <i class="fas fa-phone text-gray-500 mr-2"></i>
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500" id="phone-number" type="text" placeholder="Phone number">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html> 
